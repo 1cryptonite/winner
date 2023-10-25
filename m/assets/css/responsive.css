@@ -1,0 +1,21 @@
+@media screen and (max-width: 1666px) {
+    /*.mid-panel {
+        max-height:660px !important;
+    }*/
+    .top_table_form.member_listing {
+        max-height:420px;
+        overflow-y: auto;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    /*.mid-panel {
+        max-height:500px !important;
+        padding-bottom: 130px;
+    }*/
+    .top_table_form.member_listing {
+        max-height:320px;
+        overflow-y: auto;
+    }
+}
+ 

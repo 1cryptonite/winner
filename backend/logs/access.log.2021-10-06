@@ -1,0 +1,26 @@
+{"level":"error","timestamp":"2021-10-06 06:17:05"}
+{"code":"ER_PARSE_ERROR","errno":1064,"sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1","sqlState":"42000","index":0,"sql":"SELECT *,GREATEST(self_close_account,parent_close_account)  close_account,GREATEST(self_lock_user,parent_lock_user)  lock_user,0 sub_admin FROM users where user_name = ?","level":"error","timestamp":"2021-10-06 08:21:14"}
+{"code":"ER_PARSE_ERROR","errno":1064,"sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1","sqlState":"42000","index":0,"sql":"SELECT *,GREATEST(self_close_account,parent_close_account)  close_account,GREATEST(self_lock_user,parent_lock_user)  lock_user,0 sub_admin FROM users where user_name = ?","level":"error","timestamp":"2021-10-06 08:21:51"}
+{"level":"error","timestamp":"2021-10-06 08:22:46"}
+{"code":"ER_PARSE_ERROR","errno":1064,"sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1","sqlState":"42000","index":0,"sql":"SELECT *,GREATEST(self_close_account,parent_close_account)  close_account,GREATEST(self_lock_user,parent_lock_user)  lock_user,0 sub_admin FROM users where user_name = ?","level":"error","timestamp":"2021-10-06 08:22:48"}
+{"level":"error","timestamp":"2021-10-06 08:22:49"}
+{"level":"error","timestamp":"2021-10-06 08:22:59"}
+{"code":"ER_PARSE_ERROR","errno":1064,"sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1","sqlState":"42000","index":0,"sql":"SELECT *,GREATEST(self_close_account,parent_close_account)  close_account,GREATEST(self_lock_user,parent_lock_user)  lock_user,0 sub_admin FROM users where user_name = ?","level":"error","timestamp":"2021-10-06 08:23:21"}
+{"code":"ER_PARSE_ERROR","errno":1064,"sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1","sqlState":"42000","index":0,"sql":"SELECT *,GREATEST(self_close_account,parent_close_account)  close_account,GREATEST(self_lock_user,parent_lock_user)  lock_user,0 sub_admin FROM users where user_name = ?","level":"error","timestamp":"2021-10-06 08:23:23"}
+{"code":"ER_PARSE_ERROR","errno":1064,"sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1","sqlState":"42000","index":0,"sql":"SELECT *,GREATEST(self_close_account,parent_close_account)  close_account,GREATEST(self_lock_user,parent_lock_user)  lock_user,0 sub_admin FROM users where user_name = ?","level":"error","timestamp":"2021-10-06 08:24:02"}
+{"code":"ER_PARSE_ERROR","errno":1064,"sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1","sqlState":"42000","index":0,"sql":"SELECT *,GREATEST(self_close_account,parent_close_account)  close_account,GREATEST(self_lock_user,parent_lock_user)  lock_user,0 sub_admin FROM users where user_name = ?","level":"error","timestamp":"2021-10-06 08:24:38"}
+{"code":"ER_PARSE_ERROR","errno":1064,"sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1","sqlState":"42000","index":0,"sql":"SELECT *,GREATEST(self_close_account,parent_close_account)  close_account,GREATEST(self_lock_user,parent_lock_user)  lock_user,0 sub_admin FROM users where user_name = ?","level":"error","timestamp":"2021-10-06 08:24:39"}
+{"level":"error","timestamp":"2021-10-06 08:41:35"}
+{"level":"error","timestamp":"2021-10-06 08:41:44"}
+{"level":"error","timestamp":"2021-10-06 08:41:55"}
+{"level":"error","timestamp":"2021-10-06 08:41:58"}
+{"level":"error","timestamp":"2021-10-06 08:42:27"}
+{"level":"error","timestamp":"2021-10-06 08:42:39"}
+{"level":"error","timestamp":"2021-10-06 08:43:07"}
+{"level":"error","timestamp":"2021-10-06 10:05:02"}
+{"level":"error","timestamp":"2021-10-06 10:05:06"}
+{"level":"error","timestamp":"2021-10-06 11:57:43"}
+{"level":"error","timestamp":"2021-10-06 11:57:56"}
+{"level":"error","timestamp":"2021-10-06 11:58:30"}
+{"level":"error","timestamp":"2021-10-06 07:18:49"}
+{"level":"error","timestamp":"2021-10-06 07:18:49"}

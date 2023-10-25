@@ -1,0 +1,4 @@
+git clone https://jaswantbrsoftech@bitbucket.org/grudpuran/contestlord-node.git
+Betnfair	https://betnfair.com/
+SunnyExchanges	https://sunnyexchanges.com
+TenExch24	https://tenexch24.com

@@ -1,0 +1,1 @@
+{"code":"ER_PARSE_ERROR","errno":1064,"sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') and is_active=\"1\"' at line 1","sqlState":"42000","index":0,"sql":"SELECT * FROM series  where series_id  in  () and is_active=\"1\"","level":"error","timestamp":"2021-10-07 03:00:39"}

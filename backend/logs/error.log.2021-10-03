@@ -1,0 +1,10 @@
+{"level":"error","timestamp":"2021-10-03 02:43:32"}
+{"level":"error","timestamp":"2021-10-03 02:46:05"}
+{"level":"error","timestamp":"2021-10-03 02:46:16"}
+{"level":"error","timestamp":"2021-10-03 02:50:28"}
+{"level":"error","timestamp":"2021-10-03 02:50:43"}
+{"isJoi":true,"name":"ValidationError","details":[{"message":"\"amount\" must be greater than 0","path":["amount"],"type":"number.greater","context":{"limit":0,"value":0,"key":"amount","label":"amount"}}],"_object":{"user_id":6944,"user_type_id":3,"parent_id":1,"type":"1","amount":"0.00","comment":"","userid":1,"parent_ids":"0,0,0,0"},"level":"error","timestamp":"2021-10-03 06:31:07"}
+{"isJoi":true,"name":"ValidationError","details":[{"message":"\"amount\" must be greater than 0","path":["amount"],"type":"number.greater","context":{"limit":0,"value":0,"key":"amount","label":"amount"}}],"_object":{"user_id":6988,"user_type_id":5,"parent_id":1,"type":"2","amount":0,"comment":"","userid":1,"parent_ids":"0,0,0,0"},"level":"error","timestamp":"2021-10-03 06:32:11"}
+{"isJoi":true,"name":"ValidationError","details":[{"message":"\"user_type_id\" must be a number","path":["user_type_id"],"type":"number.base","context":{"value":"","key":"user_type_id","label":"user_type_id"}}],"_object":{"user_id":"","user_type_id":"","search":"","userid":1,"parent_ids":"0,0,0,0"},"level":"error","timestamp":"2021-10-03 06:32:57"}
+{"isJoi":true,"name":"ValidationError","details":[{"message":"\"user_type_id\" must be a number","path":["user_type_id"],"type":"number.base","context":{"value":"","key":"user_type_id","label":"user_type_id"}}],"_object":{"user_id":"","user_type_id":"","search":"","userid":1,"parent_ids":"0,0,0,0"},"level":"error","timestamp":"2021-10-03 06:32:59"}
+{"isJoi":true,"name":"ValidationError","details":[{"message":"\"user_type_id\" must be a number","path":["user_type_id"],"type":"number.base","context":{"value":"","key":"user_type_id","label":"user_type_id"}}],"_object":{"user_id":"","user_type_id":"","search":"","userid":1,"parent_ids":"0,0,0,0"},"level":"error","timestamp":"2021-10-03 06:33:01"}

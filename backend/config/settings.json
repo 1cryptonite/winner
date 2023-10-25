@@ -1,0 +1,18 @@
+﻿{
+    "SUBCRIPTION_ID": "3DA2D0BD-862D-4BC5-A044-CE0817E21399",
+    "API_URL": "/api/v1",
+    "PORT3": 3535,
+    "PORT2": 3002,
+    "PORT1": 3001,
+    "secret": "Good Things Take Time !!!!",
+    "ONLINE_URL": "https://sa.crakex.in/api/fetch_data?Action=listCompetitions&EventTypeID=",
+    "GET_ALL_ACTIVE_MATCH_BY_SPORT_ID": "https://sa.crakex.in/api/fetch_data?Action=listMatchesBySport&EventTypeID=",
+    "ONLINE_MATCH_URL": "https://sa.crakex.in/api/fetch_data?Action=listEvents&EventTypeID=",
+    "ONLINE_MARKET_URL": "https://sa.crakex.in/api/fetch_data?Action=listMarketTypes&EventID=",
+    "ONLINE_SELECTIONID_URL": "https://sa.crakex.in/api/fetch_data?Action=listMarketRunner&MarketID=",
+    "RESULT_DECLARED": "https://matchapi.crakex.in/market_result.php?marketid=",
+    "TEEN_PATTI": "http://139.162.244.160/diamondAPI/index.php/DXApi/",
+    "fancyUrl": "https://sa.crakex.in/api/get_sessions?marketid=",
+    "filePath": "./uploads",
+    "golabBetfairOddsFormate":{"betDelay": 0,"bspReconciled":false,"complete":true,"crossMatching":true,"inplay":true,"isMarketDataDelayed":false,"numberOfActiveRunners":3,"numberOfRunners":3,"numberOfWinners":1,"runnersVoidable":false,"status":"OPEN","totalAvailable":1,"totalMatched":2,"version":1,"cards":[],"results":[],"autotime":0}
+}

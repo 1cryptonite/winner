@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title></title>
+    <meta content="">
+    <style></style>
+</head>
+<body>
+
+</body>
+<script src="https://www.google.com/recaptcha/api.js?render=6LfI0agUAAAAAOVCkSrcC2vSr98vH8FTZ_No_ABa"></script>
+<script>
+
+    function onTokenReceived(token){
+        if (typeof AndroidInterface !== "undefined"){
+            AndroidInterface.onTokenReceived(token);
+        }else{
+            alert(token);
+        }
+        return false;
+    }
+
+    grecaptcha.ready(function() {
+        grecaptcha.execute('6LfI0agUAAAAAOVCkSrcC2vSr98vH8FTZ_No_ABa', {action: 'homepage'}).then(function(token) {
+            onTokenReceived(token);
+        });
+    });
+</script>
+</html>

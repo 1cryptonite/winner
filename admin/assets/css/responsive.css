@@ -1,0 +1,126 @@
+
+@media screen and (max-width:1300px) {
+
+}
+@media screen and (max-width:1100px) {
+	
+.header_rightnav { display:block; }
+.mmenu_left { display:inline-block; }
+.mmenu_right { display:inline-block; }
+
+.left_navarea { left:-230px; transition: all 0.4s ease-in-out 0s; position:absolute; z-index:9; }
+
+body.addleftcls .left_navarea { left:0px; transition: all 0.4s ease-in-out 0s;}
+.right_bodyarea { width:100%; transition: all 0.4s ease-in-out 0s;}
+header { padding:8px 15px; }
+.logo {margin-top: 7px;}
+.mmenu_left {margin-top: 7px;}
+
+}
+
+ @media screen and (max-width:1023px) {
+	 .managerole_unorderlist ul li {width: 32%;}
+	 /* vj css start */
+	 .right_bodyarea.old-data-form2 {width:100% !important;}
+	 .left_nav ul {padding-bottom:50px;}
+
+
+	 
+	 
+
+}
+
+
+
+
+
+
+ @media screen and (max-width:767px) {
+
+     td.AndarCard img {
+         width: 35px !important;
+     }
+     td.userName {
+         width:200px;
+         display: inline-block;
+     }
+     td.userNameId {
+         width:200px;
+         display: inline-block;
+     }
+
+	  /* vj css start */
+	 .subfolder { max-height: 180px; overflow-y: scroll;}
+	 .right_closebox ul {max-height:255px; overflow-y:scroll;}
+     .modal-dialog {
+         width: 90% !important;
+         margin: 30px auto;
+         color: #000;
+     }
+     td.mobileDn{
+         display: none;
+     }
+     td.mobileDnON{
+         width: 100px !important;
+     }
+     span.OverODd {
+
+         width: 72% !important;
+
+     }
+
+}
+ @media screen and (max-width:479px) {
+     .bet-lock-area ul.dropdown li {
+         display: inline-block;
+         margin-right: 20px;
+         position: relative;
+         margin-top: 10px;
+     }
+     td.AndarCard img {
+         width: 35px !important;
+     }
+     td.userName {
+         width:200px;
+         display: inline-block;
+     }
+     td.userNameId {
+         width:200px;
+         display: inline-block;
+     }
+
+     .header_rightnav ul li {
+         display: block !important;
+         text-align: right;
+         font-size: 11px;
+         line-height: 16px;
+     }
+
+     .right_closebox ul {
+         right: -265px !important;
+
+     }
+     .modal-dialog.modal-lg.createAcc {
+         width: 94% !important;
+     }
+     .modal.in .modal-dialog {
+
+         width: 94% !important;
+     }
+     .modal-dialog {
+         width: 90% !important;
+         margin: 30px auto;
+         color: #000;
+     }
+     td.mobileDn{
+         display: none;
+     }
+     td.mobileDnON{
+         width: 100px !important;
+     }
+     span.OverODd {
+
+         width: 100% !important;
+
+     }
+ }

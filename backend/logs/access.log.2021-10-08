@@ -1,0 +1,6 @@
+{"level":"error","timestamp":"2021-10-08 08:59:26"}
+{"level":"error","timestamp":"2021-10-08 08:59:48"}
+{"code":"ER_PARSE_ERROR","errno":1064,"sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1","sqlState":"42000","index":0,"sql":"SELECT *,GREATEST(self_close_account,parent_close_account)  close_account,GREATEST(self_lock_user,parent_lock_user)  lock_user,0 sub_admin FROM users where user_name = ?","level":"error","timestamp":"2021-10-08 10:33:05"}
+{"level":"error","timestamp":"2021-10-08 10:39:24"}
+{"level":"error","timestamp":"2021-10-08 10:39:28"}
+{"level":"error","timestamp":"2021-10-08 10:43:28"}

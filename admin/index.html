@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title ></title>
+
+  <base href="/">
+
+  <link rel="icon" type="image/x-icon" id="faviconIcon" >
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://www.google.com/recaptcha/api.js?render=6LfI0agUAAAAAOVCkSrcC2vSr98vH8FTZ_No_ABa"></script>
+  <script src="  https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"
+></script>
+
+<link rel="stylesheet" href="styles.f0edcc3e5f252707d433.css"></head>
+<body oncontextmenu="return false;" >
+<app-root></app-root>
+<script type="text/javascript" src="runtime.824742c2b5ebc88d9c40.js"></script><script type="text/javascript" src="es2015-polyfills.28e4b31616fb1d16efdb.js" nomodule></script><script type="text/javascript" src="polyfills.335dca489c1882143177.js"></script><script type="text/javascript" src="scripts.fc82ee0b175fb55f7458.js"></script><script type="text/javascript" src="main.9dd901b2363956757b30.js"></script></body>
+<link rel="stylesheet" type="text/css" id="theme" >
+
+</html>
+<script>
+  document.getElementById('faviconIcon').href=window.location.origin+'/api/v1/uploads/favicon.ico';
+  document.title=window.location.hostname;
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      var data=JSON.parse(this.responseText);
+      document.getElementById('theme').href='assets/css/'+data.data.theam_code+'.css';
+    }
+  };
+  xhttp.open("GET",window.location.origin+'/api/v1/globalConstant', true);
+  xhttp.setRequestHeader("Content-type", "application/json");
+  xhttp.send();
+/*  document.onkeydown = function(e) {
+    if(event.keyCode == 123) {
+      return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+      return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+      return false;
+    }
+    if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+      return false;
+    }
+  }*/
+</script>

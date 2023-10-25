@@ -1,0 +1,370 @@
+body {
+  background: #FFF;
+}
+.login_blk {
+  background-size: cover;
+  background-image:url(../images/pattern1.jpg);
+}
+header {
+  background: #ffca10;
+}
+.header_rightnav ul li a {
+  color: #000;
+}
+a.leftmenu i {
+  color: #000;
+  font-size: 25px;
+}
+.datetime {
+  background: #333;
+  color: #ffca10;
+}
+.usertable_area th {
+  background-color: #333;
+  color: #ffca10 !important;
+}
+.matchodds_box .usertable_area td, .usertable_area th {
+  border: 1px solid #000 !important;
+}
+.body_heading {
+  border-bottom: 1px solid #000;
+}
+.body_heading h2 {
+  color: #000;
+}
+.right_bodyareainner {
+  background: #FFF;
+}
+.icon_btn {
+  background: #ffca10;
+}
+.custome_pagination .pagination li a {
+  background-color: #ffca10;
+  color: #000;
+}
+.onoff {
+  background-color: #ffca10;
+}
+.usertable_area th {
+  background-color: #333;
+}
+.marketitem {
+  color: #000;
+}
+.matchodds_box .usertable_area tr {
+  background: #333 !important;
+  color: #ffca10 !important;
+}
+.matchodds_box .usertable_area td, .usertable_area th {
+  color: #000;
+}
+.over_sectiondtl {
+  background: #000
+}
+.over_sectionhdng {
+  background:#333;
+}
+.btn-primary {
+  color: #000;
+  background-color: #ffca10;
+  border-color: #ffca10;
+}
+.right_bodyarea {
+  background: #eee;
+}
+.usertable_area {
+  float: left;
+  width: 100%;
+  background-color: #eee;
+}
+.odds_boxtopright {
+  color: #000;
+}
+
+.left_navarea {
+  background: #eee;
+}
+.left_nav ul li a:hover, .left_nav ul li.active a {
+  background: #ffca10;
+}
+input:checked + .onoff {
+  background-color: #ccc;
+}
+
+.usertable_area tr:nth-child(2n+2) {
+  background: #FFF;
+  color: #000;
+}
+.form-control {
+  background: #000;
+}
+.custome_pagination .pagination > li > a:hover {
+  background-color: #333;
+  color:#FFF;
+}
+.form_blk {
+  background: #000;
+}
+.form_blk .form-group input[type=text], .form_blk .form-group input[type=password] {
+  border-bottom: 1px solid #666;
+}
+.form_blk .form-group input[type=submit] {
+  color: #fff !important;
+  background: #000 !important;
+}
+.managerole_headding h3 {
+  color: #000;
+}
+.managerole_unorderlist ul li label {
+  color: #000;
+}
+.allcheck_box {
+  color: #000;
+}
+.right_bodyareainner .form-group label {
+  color: #000;
+}
+.tab_area .nav-tabs li a {
+  color: #000;
+}
+.tab_area .nav-tabs li a:hover, .tab_area .nav-tabs li.active a {
+  background: #000;
+  border: 1px solid #000;
+}
+.tab_headding h3 {
+  color:#ffca10;
+}
+.over_sectionhdng h4 {
+  color:#ffca10;;
+}
+.sectionselect_area select {
+  background: #333;
+  border: 1px solid #333;
+}
+.position_boxhdng {
+  background: #000;
+  color: #ffca10;
+}
+input.radio-input {
+  background-color: #414141;
+  border: 1px solid #ccc;
+}
+
+.left_nav {
+  background: #ccc;
+}
+.left_nav ul li {
+  border-top: 1px solid #999;
+}
+.left_nav ul li a {
+  color: #000;
+}
+.user_nav {
+  cursor: pointer;
+  color: #000;
+}
+.form-control {
+  background: #FFF;
+  border: 1px solid #ccc;
+  color: #333;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+
+
+.usertable_area td, .usertable_area th {
+  color: #000;
+}
+.table_icon {
+  color: #000;
+}
+
+.usertable_area a {
+  color: #000 !important;
+}
+li.sportSetting li {
+  background-color: #eee;
+  border-left: 3px solid #666;
+}
+li.bckbtn.view {
+  background-color: #eee;
+  border-left: 3px solid #666;
+}
+.btn-info {
+  background-color: #ffca10 !important;
+  color: #000;
+}
+.btn-info:hover {
+  background-color: #000 !important;
+  color: #FFF !important;
+}
+.fancy-collapse-panel .panel-heading {
+  border-bottom: 1px solid #000;
+  background-color: #333;
+}
+h3.page-heading {
+  color: black;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+
+
+.right_popup .modal-header {
+  background: #000;
+  color:#ffca10;
+}
+
+.old-data-form2 .form-group.form-l .form-control {
+  background: #FFF;
+  color: #000;
+}
+
+.old-data-form2 .form-group.form-l label {
+  color: #000;
+}
+.custome_popup .modal-header {
+  background: #000;
+}
+.btn-info.blueSubmit {
+  background-color: #ffca10 !important;
+}
+.btn-info.blueSubmit:hover {
+  background-color: #000 !important;
+  color: #FFF;
+}
+
+
+h3.total-green {
+  color: #000 !important;
+}
+.ngx-pagination .current {
+  background: #ffca10 !important;
+  color: #fefefe;
+}
+.form_blk {
+  background: rgba(255, 202, 16,0.7) !important;
+}
+.login-btn1 {
+  background-color: #000 !important;
+  color: #FFF;
+}
+
+/*11-June*/
+
+.position_box div#livetv {
+    color: #000;
+}
+.betslip-table th {
+    color: #000;
+}
+tr.submarket td {
+  color: #FFF;
+}
+
+.matchodds_box .marketitem {
+  color: #FFF;
+}
+.right_bodyarea {
+  background: #333;
+  counter-reset: #FFF;
+}
+.right_bodyarea h3.page-heading {
+  color: #FFF;
+}
+.old-data-form2 .form-group.form-l label {
+  color: #FFF;
+}
+
+.matchodds_box .odds_boxtopright {
+  color: #FFF;
+}
+
+.theme-green .bs-datepicker-head {
+  background-color: #ffca10 !important;
+}
+.theme-green .bs-datepicker-body table td span.selected, .theme-green .bs-datepicker-body table td.selected span, .theme-green .bs-datepicker-body table td span[class*="select-"]:after, .theme-green .bs-datepicker-body table td[class*="select-"] span:after {
+  background-color: #ffca10 !important;
+}
+.theme-green .bs-datepicker-body table td.week span {
+  color: #ffca10 !important;
+}
+table.table.table.matchOdsPlayList ,.TennisScore,.SoccerScore{
+  color: #000;
+}
+
+tr.submarket td {
+  color: #000;
+}
+tr.submarket {
+  background: #eee;
+  border-color: 1px solid #fff;
+  border: 2px solid #ffffffb8!important;
+  color: #333 !important;
+}
+.srtFullname{
+  color: black;
+}
+.event-header {
+  background-color: #ffca10;
+  color: #000 !important;
+  border-bottom: 1px solid;
+
+}
+.event-header h1, .event-header i.match-stats-body-button {
+  color: #000;
+}
+.blue-bg {
+  background-color: #f6ca10;
+}
+
+/*new*/
+
+.form_blk .form-group i {
+  color: #000;
+}
+.btn-primary.disabled, .btn-primary[disabled], fieldset[disabled] .btn-primary, .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover, .btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus, .btn-primary.disabled.focus, .btn-primary[disabled].focus, fieldset[disabled] .btn-primary.focus, .btn-primary.disabled:active, .btn-primary[disabled]:active, fieldset[disabled] .btn-primary:active, .btn-primary.disabled.active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary.active {
+  background-color: #ffca10;
+  border-color: #ffca10;
+}
+.form_blk .form-group input::-webkit-input-placeholder {color: #333 !important;opacity:1;}
+.form_blk .form-group input:-moz-placeholder {color: #333 !important;opacity:1;}
+.form_blk .form-group input::-moz-placeholder {color: #333 !important;opacity:1;}
+.form_blk .form-group input:-ms-input-placeholder {color: #333 !important;opacity:1;}
+.form_blk .form-group input[type=text], .form_blk .form-group input[type=password] {
+  color: #333;
+}
+
+.usertable_area .closedUser td img {
+  background-color: #999;
+  padding: 5px;
+  width: 30px;
+  border-radius: 50px;
+}
+.right_bodyareainner p {
+  color: #000;
+  padding: 5px 10px;
+}
+.ngx-pagination .disabled {
+  background-color:#353b57;
+}
+.ngx-pagination .disabled:hover {
+  background: #FFA500 !important;
+  color: #000;
+}
+.usertable_area tr:nth-child(2n) td {
+  background:transparent;
+  color: #000;
+}
+.bdr-bottom {
+  color: black!important;
+}
+label.BookPer {
+  color: black;
+}

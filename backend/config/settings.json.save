@@ -1,0 +1,14 @@
+﻿{
+    "API_URL": "/api/v1",
+    "PORT1": 3003,
+    "PORT2":
+    "secret": "Good Things Take Time !!!!",
+    "ONLINE_URL": "https://sa.crakex.in/api/fetch_data?Action=listCompetitions&EventTypeID=",
+    "ONLINE_MATCH_URL": "https://sa.crakex.in/api/fetch_data?Action=listEvents&EventTypeID=",
+    "ONLINE_MARKET_URL": "https://sa.crakex.in/api/fetch_data?Action=listMarketTypes&EventID=",
+    "ONLINE_SELECTIONID_URL": "https://sa.crakex.in/api/fetch_data?Action=listMarketRunner&MarketID=",
+    "RESULT_DECLARED": "https://matchapi.crakex.in/market_result.php?marketid=",
+    "TEEN_PATTI": "http://139.162.244.160/diamondAPI/index.php/DXApi/",
+    "fancyUrl": "https://sa.crakex.in/api/get_sessions?marketid=",
+    "filePath": "/var/back_end/uploads"
+}

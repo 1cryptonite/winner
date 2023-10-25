@@ -1,0 +1,21 @@
+/*
+@media screen and (max-width: 1666px) {
+
+    .top_table_form.member_listing {
+        max-height:420px;
+        overflow-y: auto;
+    }
+    .usertable_area {
+        max-height: 400px;
+        overflow-y: auto;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+
+    .top_table_form.member_listing {
+        max-height:320px;
+        overflow-y: auto;
+    }
+}
+*/

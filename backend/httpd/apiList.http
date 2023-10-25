@@ -1,0 +1,1144 @@
+
+###
+POST http://localhost:3003/api/v1/register HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIiwidXNlcl90eXBlX2lkIjoxfSwiaWF0IjoxNTU4OTUxNzcwfQ.VCf0qG6cWZxBH9G6vSBGx5pRTh2Z2lvTB-WwGWa68uE
+
+{
+	"user_name":"xyz",
+	"password":"123456",
+	"parent_id":1,
+	"name":"xyz name",
+	"remark":"test",
+    "user_type_id" : 2,
+	"create_no_of_child":2
+}
+
+
+###
+POST http://localhost:3003/api/v1/userLogin HTTP/1.1
+Content-type: application/json
+
+{
+	"user_name":"ajay",
+	"password":"T12345"
+}
+
+###
+POST http://localhost:3003/api/v1/login HTTP/1.1
+Content-type: application/json
+
+{
+  "user_name":"admin",
+  "password":"123456"
+}
+
+
+### Done
+POST http://localhost:3003/api/v1/createMarket HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIiwidXNlcl90eXBlX2lkIjoxfSwiaWF0IjoxNTU4NzIwOTE1fQ.iFxSCgtoI4ZfB6KbxLDfFaIWZqlEP46yLpZDp_dMP8c
+
+{
+	"sport_id":"asdf3",
+	"series_id":"asdf3",
+	"match_id":"asdf3",
+	"market_id":"1.158148647",
+	"name":"1",
+	"is_manual":"1"
+}
+
+
+### Done updateMarketStatus
+POST http://localhost:3003/api/v1/getAllMarket HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+### Done
+POST http://localhost:3003/api/v1/updateMarketStatus HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"id":39
+}
+
+### Done
+POST http://localhost:3003/api/v1/createMatches HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"sport_id": "asdf",
+	"series_id": "asdf",
+	"name": "asdf",
+	"is_manual": "1"
+}
+
+### Done
+POST http://localhost:3003/api/v1/getAllMatches HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+  "sport_id": "4",
+  "series_id": "456",
+  "status": "",
+  "match_name" : "",
+  "limit" : 100,
+  "pageno" : 1
+
+}
+
+### Done updateMatchStatus
+POST http://localhost:3003/api/v1/updateMatchStatus HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"id":2
+}
+
+
+
+### Done
+POST http://localhost:3003/api/v1/createSeries HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"sport_id": "asdfasdf",
+	"series_id": "asdfasdf",
+	"name": "asdfasdf",
+	"is_manual": "0"
+}
+
+### Done
+POST http://localhost:3003/api/v1/getAllSeries HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"limit": 10,
+	"pageno": 1,
+	"sport_id": 4
+}
+
+### Done updateMatchStatus
+POST http://localhost:3003/api/v1/updateSeriesStatus HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"id":11
+}
+
+### Done
+POST http://localhost:3003/api/v1/getOnlineSeries HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIiwidXNlcl90eXBlX2lkIjoxfSwiaWF0IjoxNTU4NzIwOTE1fQ.iFxSCgtoI4ZfB6KbxLDfFaIWZqlEP46yLpZDp_dMP8c
+
+{
+	"sport_id":"4"
+}
+### *******
+POST http://localhost:3003/api/v1/createSports HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"sport_id": "77777",
+	"name": "asdfasdf",
+	"is_manual": "0"
+}
+
+### Done
+POST http://localhost:3003/api/v1/getAllSports HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjU2LCJyb2xlIjoiQWRtaW5UZXN0IiwicGFyZW50X2lkIjoiNTUsNTQsNTMsMSwwIiwidXNlcl90eXBlX2lkIjo1fSwiaWF0IjoxNTU4Nzg4NDQ3fQ.p2CguSSHjvAzdBUwzSdsYkkBq9bALSsD7XcWN6MbwYw
+
+{
+	"limit": 10,
+	"pageno": 1
+}
+
+### Done 
+POST http://localhost:3003/api/v1/updateSportsStatus HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"id":1
+}
+
+
+
+###
+POST http://localhost:3003/api/v1/getPartnershipByUserId HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"user_id": 1
+}
+
+
+###
+POST http://localhost:3003/api/v1/updateuserStatusLock HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"user_id":1
+}
+
+###
+POST http://localhost:3003/api/v1/updateuserStatusUnlock HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"user_id":2
+}
+
+###
+POST http://localhost:3003/api/v1/getOwnChild HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"user_id":"23"
+}
+
+
+###updateMarketStatus
+
+###
+POST http://localhost:3003/api/v1/updateMarketStatus HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"user_id":3
+}
+
+
+###
+POST http://localhost:3003/api/v1/addPartnership HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"user_type_id": "0",
+	"user_id": 4,
+	"parent_id": 3,
+	"sport_id": "4",
+	"partnership": 20
+}
+
+### *******
+POST http://localhost:3003/api/v1/createFancy HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"match_id": "jA1234",
+	"super_admin_fancy_id": "1",
+	"name": "Javed",
+	"fancy_type_id": "1",
+	"session_value_yes": "10",
+	"session_value_no"  : "9",
+	"fancy_range"  : "8",
+	"sport_id"  : "147856",
+	"session_size_no" : "1236644",
+	"session_size_yes" : 1,
+	"is_indian_fancy" : "1"
+}
+
+### *******
+POST http://localhost:3003/api/v1/getFancy HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	 "match_id": "jA12341"
+}
+
+
+### *******
+POST http://localhost:3003/api/v1/updatePassword HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjcsInJvbGUiOiJBZG1pblRlc3QifSwiaWF0IjoxNTU2NjE3ODg4fQ.9e4PUWlEk4fUzZT5it2KUw5-cRUG7AHeMw2dIA82zg0
+
+{
+	 "oldPassword": "jA12341",
+	 "newPassword": "Admin",
+	 "confirmNewPassword": "Admin"
+}
+
+
+
+### *******
+POST http://localhost:3003/api/v1/updateChildPassword HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjcsInJvbGUiOiJBZG1pblRlc3QifSwiaWF0IjoxNTU2NjE3ODg4fQ.9e4PUWlEk4fUzZT5it2KUw5-cRUG7AHeMw2dIA82zg0
+
+{
+	 "childUserId": "18",
+	 "newPassword": "Admin",
+	 "confirmNewPassword": "Admin"
+}
+
+
+
+### *******
+POST http://localhost:3003/api/v1/getUserPartnership HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjcsInJvbGUiOiJBZG1pblRlc3QifSwiaWF0IjoxNTU2NjE3ODg4fQ.9e4PUWlEk4fUzZT5it2KUw5-cRUG7AHeMw2dIA82zg0
+
+{
+	 "user_id": "11"
+}
+
+
+###
+POST http://localhost:3003/api/v1/getClosedUserList HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjcsInJvbGUiOiJBZG1pblRlc3QifSwiaWF0IjoxNTU2NjE3ODg4fQ.9e4PUWlEk4fUzZT5it2KUw5-cRUG7AHeMw2dIA82zg0
+
+
+### *******
+POST http://localhost:3003/api/v1/getUser HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjcsInJvbGUiOiJBZG1pblRlc3QifSwiaWF0IjoxNTU2NjE3ODg4fQ.9e4PUWlEk4fUzZT5it2KUw5-cRUG7AHeMw2dIA82zg0
+
+{
+	 "user_id": "11"
+}
+
+
+### *******
+POST http://localhost:3003/api/v1/deactiveSport HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjcsInJvbGUiOiJBZG1pblRlc3QifSwiaWF0IjoxNTU2NjE3ODg4fQ.9e4PUWlEk4fUzZT5it2KUw5-cRUG7AHeMw2dIA82zg0
+
+{
+	 "user_id":2,
+	 "sport_id": "4"
+}
+
+
+###
+POST http://localhost:3003/api/v1/updateuserStatusClose HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"user_id":1
+}
+
+###
+POST http://localhost:3003/api/v1/updateuserStatusReopen HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"user_id":1
+}
+
+###
+POST http://localhost:3003/api/v1/updateUserDetails HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"user_id":1
+}
+
+
+###
+POST http://localhost:3003/api/v1/updateUserBasicDetails HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"user_id":1,
+	"name":"33333",
+	"mobile":"3333",
+	"remark":"3333"
+}
+
+
+###
+POST http://localhost:3003/api/v1/updateMarket HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"id":71,
+	"max_bet_liability":2,
+	"max_market_liability":2,
+	"max_market_profit":2
+}
+
+
+###
+POST http://localhost:3003/api/v1/updateMatch HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"id":4,
+	"odd_limit":1,
+	"volume_limit":1,
+	"min_stack":1,
+	"max_stack":1
+}
+
+
+
+
+
+### *******
+GET http://192.168.1.19:3003/api/v1/getIndianFancy?match_id=29294483  HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+
+### *******
+GET http://localhost:3003/api/v1/getGlobalSetting  HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+}
+
+
+### *******
+POST http://localhost:3003/api/v1/updateGlobalSetting  HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+    "site_title" : "jw",
+	"site_message" : "rw",
+	"one_click_stack" : "ww",
+	"match_stack" : "dfdsgfgds",
+	"session_stack" : "dfdsbgfhdg",
+	"bet_allow_time_before" : 123456
+}
+
+
+###
+POST http://localhost:3003/api/v1/updateUserStatusBettingLock HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"user_id":1
+}
+
+###
+POST http://localhost:3003/api/v1/updateUserStatusBettingUnlock HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"user_id":1
+}
+
+### *******
+GET http://localhost:3003/api/v1/getFancyById?id=3  HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+}
+
+
+
+###
+POST http://localhost:3003/api/v1/updateFancyById HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"active":"0",
+	"id"  : 9
+}
+
+
+###
+POST http://192.168.1.19:3003/api/v1/updateFancyData HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"id"  : 1,
+	"max_stack" : 1 ,
+	"rate_diff" :2,
+	"point_diff" : 3,
+	"session_value_yes" : 4,
+	"session_value_no" : 5,
+	"session_size_yes" : 6,
+	"session_size_no"  : 7,
+	"remark" : "javed"
+}
+
+
+###
+POST http://192.168.1.19:3003/api/v1/uploadlogo HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+"fileImage"  : "upload logo in png format from data"
+}
+###
+POST http://192.168.1.19:3003/api/v1/uploadfavicon HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+"faviconIcon"  : "upload favicon icon in from data"
+}
+
+
+###
+POST http://localhost:3003/api/v1/createAccountStatement HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"user_id":1,
+	"parent_id":0,
+	"crdr":1,
+	"statement_type":1,
+	"amount":1,
+	"amount":1,
+	"description":"description"
+}
+
+
+###
+POST http://192.168.1.33:3003/api/v1/bet/saveBet HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjMxLCJyb2xlIjoiQWRtaW5UZXN0IiwicGFyZW50X2lkIjoiMzAsMjksMjgsMSwwIiwidXNlcl90eXBlX2lkIjo1fSwiaWF0IjoxNTU4NTk1OTU2fQ.PjiBp5s2XyqgYZOfdzle0a0I5xPvussTCKgpxvGXTA8
+
+{
+"market_id"  : "1.159042206",
+"selection_id" : 152530,
+"odds"  : 1.38,
+"stack" : 500,
+"is_back" : "0",
+"is_fancy" : 0
+}
+
+###
+GET http://localhost:3003/api/v1/marketWatch HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIiwidXNlcl90eXBlX2lkIjoxfSwiaWF0IjoxNTU4NzIwOTE1fQ.iFxSCgtoI4ZfB6KbxLDfFaIWZqlEP46yLpZDp_dMP8c
+
+{
+}
+
+
+### addPartnership11
+POST http://localhost:3003/api/v1/addPartnership HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"user_type_id": 2,
+	"user_id": 3,
+	"parent_id": 2,
+	"sport_id": "2",
+	"partnership": 80
+}
+
+
+### addPartnership22
+POST http://localhost:3003/api/v1/addPartnership HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"user_type_id": 3,
+	"user_id": 4,
+	"parent_id": 3,
+	"sport_id": "2",
+	"partnership": 50
+}
+
+
+### addPartnership33
+POST http://localhost:3003/api/v1/addPartnership HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"user_type_id": 4,
+	"user_id": 7,
+	"parent_id": 4,
+	"sport_id": "2",
+	"partnership": 20
+}
+
+
+###
+POST http://localhost:3003/api/v1/logout HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+
+
+
+
+### addPartnership33
+POST http://localhost:3003/api/v1/getMarketSettingById HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"id": 64
+}
+### addPartnership33
+POST http://localhost:3003/api/v1/getMatchSettingById HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"id": 1
+}
+
+
+###
+POST http://localhost:3003/api/v1/createUserSettings HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjMyLCJyb2xlIjoiQWRtaW5UZXN0IiwicGFyZW50X2lkIjoiMSwwIn0sImlhdCI6MTU1NzgyMzQ1M30.6ujKhXP7pgopNWweDI6dfGdBxlZAeEbBNIHuMFGxbBI
+
+{
+"data" :[
+    {
+      "id": 1,
+      "sport_id": 12,
+      "user_id": 12,
+      "parent_id": 54,
+      "match_commission": 1,
+      "session_commission": 2,
+      "bet_delay": 21,
+      "session_delay": 54,
+      "max_bet": 12,
+      "min_bet": 73,
+      "min_exposure": 46,
+      "max_exposure": 37,
+      "winning_limit": 17
+    },
+    {
+      "id": 2,
+      "sport_id": 58,
+      "user_id": 12,
+      "parent_id": 99,
+      "match_commission": 124,
+      "session_commission": 112,
+      "bet_delay": 21,
+      "session_delay": 54,
+      "max_bet": 12,
+      "min_bet": 73,
+      "min_exposure": 46,
+      "max_exposure": 37,
+      "winning_limit": 17
+    },
+    {
+      "id": 3,
+      "sport_id": 21,
+      "user_id": 12,
+      "parent_id": 54,
+      "match_commission": 124,
+      "session_commission": 112,
+      "bet_delay": 21,
+      "session_delay": 54,
+      "max_bet": 12,
+      "min_bet": 73,
+      "min_exposure": 46,
+      "max_exposure": 37,
+      "winning_limit": 17
+    },
+    {
+      "id": 4,
+      "sport_id": 21,
+      "user_id": 12,
+      "parent_id": 54,
+      "match_commission": 124,
+      "session_commission": 112,
+      "bet_delay": 21,
+      "session_delay": 54,
+      "max_bet": 12,
+      "min_bet": 73,
+      "min_exposure": 46,
+      "max_exposure": 37,
+      "winning_limit": 17
+    },
+    {
+      "id": 5,
+      "sport_id": 21,
+      "user_id": 12,
+      "parent_id": 54,
+      "match_commission": 124,
+      "session_commission": 112,
+      "bet_delay": 21,
+      "session_delay": 54,
+      "max_bet": 12,
+      "min_bet": 73,
+      "min_exposure": 46,
+      "max_exposure": 37,
+      "winning_limit": 17
+    },
+    {
+      "id": 6,
+      "sport_id": 29,
+      "user_id": 12,
+      "parent_id": 54,
+      "match_commission": 124,
+      "session_commission": 112,
+      "bet_delay": 21,
+      "session_delay": 54,
+      "max_bet": 12,
+      "min_bet": 73,
+      "min_exposure": 46,
+      "max_exposure": 37,
+      "winning_limit": 17
+    },
+    {
+      "id": 7,
+      "sport_id": 55,
+      "user_id": 12,
+      "parent_id": 54,
+      "match_commission": 124,
+      "session_commission": 112,
+      "bet_delay": 21,
+      "session_delay": 54,
+      "max_bet": 12,
+      "min_bet": 73,
+      "min_exposure": 46,
+      "max_exposure": 37,
+      "winning_limit": 17
+    },
+    {
+      "id": 8,
+      "sport_id": 65,
+      "user_id": 12,
+      "parent_id": 54,
+      "match_commission": 124,
+      "session_commission": 112,
+      "bet_delay": 21,
+      "session_delay": 54,
+      "max_bet": 12,
+      "min_bet": 73,
+      "min_exposure": 46,
+      "max_exposure": 37,
+      "winning_limit": 17
+    }
+  ]
+}
+
+
+###
+POST http://localhost:3003/api/v1/updateUserSettingById HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+"id" : 2,
+"sport_id" : 58,
+"parent_id" : 99,
+"match_commission" : 124,
+"session_commission" : 112,
+"bet_delay" : 21,
+"session_delay" : 54,
+"max_bet" : 12,
+"min_bet" : 73,
+"min_exposure" : 46,
+"max_exposure" : 37,
+"winning_limit" : 17
+}
+
+
+
+
+
+### *******
+GET http://localhost:3003/api/v1/getUserSettingsBySportId?user_id=58  HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+}
+
+
+
+### addPartnership33*************
+POST http://localhost:3003/api/v1/updatePartnership HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+[
+	{
+		"user_id":70,
+		"sport_id": 1,
+		"partnership": 10,
+		"user_type_id": 2
+	},
+	{
+		"user_id": 70,
+		"sport_id": 2,
+		"partnership": 2,
+		"user_type_id": 2
+	},
+	{
+		"user_id": 70,
+		"sport_id": 4,
+		"partnership": 20,
+		"user_type_id": 2
+	},
+	{
+		"user_id": 70,
+		"sport_id": 7,
+		"partnership": 20,
+		"user_type_id": 2
+	}
+]
+
+
+
+### addPartnership
+POST http://localhost:3003/api/v1/user/home/matches/4 HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"sport_id":4,
+	"match_id":11
+}
+
+
+
+###
+POST http://localhost:3003/api/v1/bet/getHistory HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIiwidXNlcl90eXBlX2lkIjoxfSwiaWF0IjoxNTU4NzIwOTE1fQ.iFxSCgtoI4ZfB6KbxLDfFaIWZqlEP46yLpZDp_dMP8c
+
+{
+"user_id" :1,
+"userTypeId" :1,
+"fromDate":"2018-02-02",
+"toDate" : "2020-02-02",
+"page" : 1,
+"matchType" : "M"
+}
+
+
+
+### getPartnershipList
+POST http://localhost:3003/api/v1/getPartnershipList HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEyLCJyb2xlIjoiQWRtaW5UZXN0In0sImlhdCI6MTU1NTk5OTc4M30.gOeLrdWKSeDFT6iDSv4v2h1vKAlmNjtAeeig0veG31A
+
+{
+	"user_id": 54,
+	"user_type_id": 2
+}
+
+
+### homeMatches
+POST http://localhost:3003/api/v1/homematches HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"sport_id": 4,
+	"series_id": 0
+}
+
+###
+
+POST http://localhost:3003/api/v1/matchDetails HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"match_id": "29253487"
+}
+
+###
+
+
+###
+POST http://localhost:3003/api/v1/bet/matchResultOdds HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+		"sport_id": "3",
+		"match_id": "29253482",
+		"market_id": "1.158149277",
+		"selection_id": "2954281",
+		"sport_name": "Cricket",
+		"match_name": "Mumbai vs Hydrabad",
+		"market_name": "odd",
+		"selection_name": "mumbai"
+}
+
+
+###
+POST http://localhost:3003/api/v1/matchResultFancy HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1NzczNjY3NH0.miky7m04nsE1zC5eck0YJdPAv4szGM_k-a47x0dWyfM
+
+{
+		"sport_id": "4",
+		"match_id": "123213252",
+		"fancy_id": "5652554",
+		"result": "2554"
+}
+
+
+###
+POST http://localhost:3003/api/v1/getGlobalMatchStack HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+
+###
+POST http://localhost:3003/api/v1/getGlobalMatchStack HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+
+
+
+### getUserMatchStack
+GET http://localhost:3003/api/v1/getUserMatchStack HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+
+### getUserMatchStack
+POST http://localhost:3003/api/v1/updateUserMatchStack HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"match_stack":"100,300"
+}
+
+
+###
+GET http://localhost:3003/api/v1/getLiveMatchMarketIdList HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+
+
+### 
+POST http://localhost:3003/api/v1/removeOldData HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+
+### 
+POST http://localhost:3003/api/v1/removeDataDatewise HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"fromDate":"2019-01-01",
+	"toDate":"2019-08-01"
+}
+
+### 
+POST http://localhost:3003/api/v1/abandonedFancy HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"fancyID":1
+}
+
+### 
+POST http://localhost:3003/api/v1/matchResultFancy HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1Nzg5NzExMn0.rxqvpOTd6YplH5hWLXu5I6NtlwQWLziWq9EdNSo43kw
+
+{
+	"sport_id":"4",
+	"match_id":"1232132",
+	"fancy_id":"5654",
+	"result":"54",
+	"sportName":"Cricket",
+	"matchName":"Mumbai vs Hydrabad"
+}
+
+
+#4, 1232132, 5654, 54, Cricket, Mumbai vs Hydrabad
+
+
+
+###
+POST http://localhost:3003/api/v1/bet/matchResultOdds HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjIsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIn0sImlhdCI6MTU1NzQ2OTc4Nn0.m1ZoK_Ty9tF5_EClT6Imr_Pfol38e-PCTQb1DaZRrxw
+
+{
+		"sport_id": "3",
+		"match_id": "29253482",
+		"market_id": "1.158149277",
+		"selection_id": "2954281",
+		"sport_name": "Cricket",
+		"match_name": "Mumbai vs Hydrabad",
+		"market_name": "odd",
+		"selection_name": "mumbai"
+}
+
+
+###
+POST http://localhost:3003/api/v1/getFancyPosition HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjU2LCJyb2xlIjoiQWRtaW5UZXN0IiwicGFyZW50X2lkIjoiNTUsNTQsNTMsMSwwIiwidXNlcl90eXBlX2lkIjo1fSwiaWF0IjoxNTU4NzcyNDg4fQ.OrfDJS71gk1OZfKZKpSIeFvmNHaV6tLl1S_xK17PziE
+
+{
+		"fancy_id": "29283067_4"
+}
+
+###
+
+###
+POST http://localhost:3003/api/v1/bet/getBetsByMatchId HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIiwidXNlcl90eXBlX2lkIjoxfSwiaWF0IjoxNTU4NzgxMTUyfQ.KXTLotKpUyiaAJpv61w_PKNmJvg5lVn_ISVu7loZrO4
+
+{
+  "match_id": "29283067"
+}
+
+###
+
+###
+POST http://localhost:3003/api/v1/bet/getAllBets HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIiwidXNlcl90eXBlX2lkIjoxfSwiaWF0IjoxNTU4NzgyMjcwfQ.XFNFFX4mPtKOP2OfEd6ITW471HnBJVvW4PODnGXyc4c
+
+
+# stack amount
+
+
+###
+POST http://localhost:3003/api/v1/accountSatement HTTP/1.1
+GET http://localhost:3003/api/v1/getMarketSession HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjU2LCJyb2xlIjoiQWRtaW5UZXN0IiwicGFyZW50X2lkIjoiNTUsNTQsNTMsMSwwIiwidXNlcl90eXBlX2lkIjo1fSwiaWF0IjoxNTU4NzcyNDg4fQ.OrfDJS71gk1OZfKZKpSIeFvmNHaV6tLl1S_xK17PziE
+
+{
+	"from_date": "2019-05-26",
+	"limit": 10,
+	"pageno": 1,
+	"to_date": "2019-05-26",
+	"user_id": 56
+}
+###
+
+POST http://localhost:3003/api/v1/accountStatement/chipInOutStatement HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIiwidXNlcl90eXBlX2lkIjoxfSwiaWF0IjoxNTU4NzIwOTE1fQ.iFxSCgtoI4ZfB6KbxLDfFaIWZqlEP46yLpZDp_dMP8c
+
+{
+  "user_id" : 1,
+  "from_date" : "2018-02-02",
+  "to_date" : "2020-02-02",
+  "page" : 1
+}
+
+###
+
+
+POST http://localhost:3003/api/v1/signUp HTTP/1.1
+Content-type: application/json
+
+{
+  "user_name": "kk1",
+  "password": "123456",
+  "name": "kk signup1",
+  "mobile": "45747778"
+}
+
+###
+
+POST http://localhost:3003/api/v1/virtualGameApi HTTP/1.1
+Content-type: application/json
+
+{
+  "credentials":{
+    "login":"",
+    "password":""
+  },
+  "data":{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjQ5MjIsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwLDAsMCwxIiwidXNlcl90eXBlX2lkIjo1fSwiaWF0IjoxNjEzMTMxODUwfQ.Fqpkgf28G-CdNL7N-XjoDtQM0JVWv1x_z3sCzL_Fo-k",
+    "pn":""
+  },
+  "method":"getPlayerInfo",
+  "ip":"150.107.190.4"
+}
+
+###
+
+POST http://localhost:3003/api/v1/virtualGameApi HTTP/1.1
+Content-type: application/json
+
+{
+  "credentials":{
+    "login":"",
+    "password":""
+  },
+  "data":{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjQ5MjIsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwLDAsMCwxIiwidXNlcl90eXBlX2lkIjo1fSwiaWF0IjoxNjEzMTMxODUwfQ.Fqpkgf28G-CdNL7N-XjoDtQM0JVWv1x_z3sCzL_Fo-k",
+    "pn":""
+  },
+  "method":"getBalance",
+  "ip":"150.107.190.4"
+}
+
+###
+
+POST http://localhost:3003/api/v1/virtualGameApi HTTP/1.1
+Content-type: application/json
+
+{
+  "credentials": {
+    "login": "",
+    "password": ""
+  },
+  "data": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjQ5MjIsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwLDAsMCwxIiwidXNlcl90eXBlX2lkIjo1fSwiaWF0IjoxNjEzNjY2MDc5fQ.v1c8qkFm98--OtwsRIo5-ge2B6mkWQiUKY5LMFw9JAU",
+    "pn": "23445",
+    "stack": 3000,
+    "pl": 500,
+    "siteId": "testt",
+    "game":  "test game",
+    "roundId": "235243"
+  },
+  "method": "bet",
+  "ip": "150.107.190.4"
+}
+
+###
+
+POST http://localhost:3003/api/v1/user/getSignupUserList HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsiaWQiOjEsInJvbGUiOiJBZG1pblRlc3QiLCJwYXJlbnRfaWQiOiIwIiwidXNlcl90eXBlX2lkIjoxfSwiaWF0IjoxNTU4NzIwOTE1fQ.iFxSCgtoI4ZfB6KbxLDfFaIWZqlEP46yLpZDp_dMP8c
+
+{
+  "search" : "",
+  "page" : 1
+}
+
+###

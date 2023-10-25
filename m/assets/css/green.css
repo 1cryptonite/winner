@@ -1,0 +1,82 @@
+body {
+    background: #f3fff7 !important;
+}
+.logo-bg {
+    background-color: #389256 !important;
+}
+.form-group.has-feedback button.login-btn1 {
+    background-color: #389256;
+    color: #FFF;
+}
+.login100-form-btn{
+    background-color: #389256;
+    color: #FFF;
+}
+.heder-col{
+    background: #389256 !important;
+}
+.top-menu {
+    background: #dcdcdc;
+}
+ul.header-menu li a:hover, ul.header-menu li a:focus, ul.header-menu li.active a {
+    background-color: #389256;
+    box-shadow: inset 0 1px 3px 0 rgba(52, 9, 9, 0.5);
+    color: #FFF;
+}
+.heading-col {
+    background: #389256;
+    /* background: linear-gradient(to bottom, #ffcc2f 0%, #ffba0f 100%); */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffcc2f', endColorstr='#ffba0f', GradientType=0);
+    padding: 5px 10px;
+}
+.heading-col h3 {
+    color: #fff;
+    font-size: 15px;
+    margin: 0;
+}
+ul.menu-right-text a {
+    color: #55ff8d !important;
+}
+ul.leftmenu li a i span {
+    background-color: #83d29d;
+}
+ul.top-right-panel li a.active {
+    color: #5ad082;
+    border-top: 3px solid #5bd082;
+}
+.main-text {
+    color: #ffffff;
+}
+ul.leftmenu li a:hover, ul.leftmenu li a:focus, ul.leftmenu li.active a {
+    background-color: #b3eac5;
+}
+ul.top-right-panel li a:hover {
+    color: #389256 !important;
+}
+li.col-left a {
+    color: #ffffff !important;
+}
+ul.leftmenu li {
+    border-bottom: 1px solid #b3dcc1;
+}
+.game-heading {
+    background-color: #389256;
+    color: #fff;
+}
+.btn_color_out button {
+    background: #389256 !important;
+    border-color: #69cc8a !important;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
